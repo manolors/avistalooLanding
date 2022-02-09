@@ -1,6 +1,6 @@
 const path = require("path");
 const mode = "development";
-const base = mode === "production" ? "/" + path.basename(process.cwd()) + "/" : "/";
+const base = "/";
 
 module.exports = {
   root: "src",
