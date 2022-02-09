@@ -1,5 +1,5 @@
 const path = require("path");
-const mode = "production";
+const mode = "development";
 const base = mode === "production" ? "/" + path.basename(process.cwd()) + "/" : "/";
 
 module.exports = {
@@ -9,6 +9,6 @@ module.exports = {
   publicDir: "../public",
   build: {
     outDir: "../dist",
-    assetsDir: "./"
+    assetsDir: "./assets"
   }
 };
